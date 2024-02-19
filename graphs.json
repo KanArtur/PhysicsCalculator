@@ -1,0 +1,11 @@
+{
+  "linUni": {
+    "x": ["x0 + V * xAxis", ["x0", "V"], "abs( x0 ) + 20"],
+    "V": ["xAxis * 0 + V", ["V"], "abs( V ) + 20"]
+  },
+  "linAcc": {
+    "x": ["x0 + V0 * xAxis + ( a * xAxis ** 2 ) / 2", ["x0", "V0", "a"],
+      "max(abs(((- V0 ) ** 2 / ( a * 2)) + x0 ), abs( x0 )) + 20"],
+    "V": ["V0 + a * xAxis", ["V0", "a"], "abs( V0 ) + 20"]
+  }
+}

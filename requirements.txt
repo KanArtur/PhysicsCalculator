@@ -1,0 +1,6 @@
+matplotlib==3.8.0
+numpy==1.26.1
+PyQt5==5.15.9
+pyqt5-tools == 5.15.9.3.3
+PyQt5-stubs == 5.15.6.0
+PyQt5-sip == 12.12.1
